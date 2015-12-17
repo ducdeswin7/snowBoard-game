@@ -1,0 +1,36 @@
+/* line 1, ../sass/_standard.scss */
+body {
+  background: #7DBAAB;
+}
+
+/* line 4, ../sass/_standard.scss */
+.content {
+  width: 1180px;
+  margin: 50px auto;
+}
+
+/* line 1, ../sass/_luttin.scss */
+.luttins {
+  width: 900px;
+  height: 100px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 8, ../sass/_luttin.scss */
+.luttins ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0 20px -30px;
+}
+/* line 13, ../sass/_luttin.scss */
+.luttins ul li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  list-style: none;
+  background: red;
+  border: 4px solid #ffffff;
+}
