@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snowboard game</title>
+    <link rel="stylesheet" href="styles/stylesheets/main.css"/>
+</head>
+<body>
+<div class="content">
+    <div class="luttins-1 luttins">
+        <ul>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+            <li><img class="bonhomme" src="images/mechantbonhommedeneige.png" alt=""/></li>
+        </ul>
+    </div>
+
+</div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/snowScript.js"></script>
+    <script src="js/script-mouv.js"></script>
+<script>
+    $(document).ready( function(){
+        $.fn.snow({ minSize: 5, maxSize: 10, newOn: 100, flakeColor: '#fff' });
+
+    });
+</script>
+</body>
+</html>

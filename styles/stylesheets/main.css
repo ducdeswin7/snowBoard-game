@@ -8,6 +8,53 @@ body {
   width: 1180px;
   margin: 50px auto;
 }
+/* line 7, ../sass/_standard.scss */
+.content .accueil {
+  padding-top: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+/* line 11, ../sass/_standard.scss */
+.content .accueil_santa {
+  width: 250px;
+}
+/* line 14, ../sass/_standard.scss */
+.content .accueil_start {
+  text-align: center;
+  margin-top: 20px;
+}
+/* line 17, ../sass/_standard.scss */
+.content .accueil_start_link {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  border: 15px solid #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 125px;
+  font-size: 4em;
+  transition: all ease 0.3s;
+}
+/* line 29, ../sass/_standard.scss */
+.content .accueil_start_link:hover {
+  color: #7DBAAB;
+  background: #ffffff;
+  transition: all ease 0.3s;
+}
+/* line 36, ../sass/_standard.scss */
+.content .accueil_rule {
+  text-align: center;
+  margin-top: 1.5em;
+  color: #fff;
+  font-size: 2em;
+}
+/* line 42, ../sass/_standard.scss */
+.content .accueil_rule-text {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0 10%;
+}
 
 /* line 1, ../sass/_luttin.scss */
 .luttins {
@@ -27,10 +74,9 @@ body {
 /* line 13, ../sass/_luttin.scss */
 .luttins ul li {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
   list-style: none;
-  background: red;
-  border: 4px solid #ffffff;
+}
+/* line 17, ../sass/_luttin.scss */
+.luttins ul li .bonhomme {
+  width: 80px;
 }

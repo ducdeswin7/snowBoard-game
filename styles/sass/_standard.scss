@@ -4,4 +4,46 @@ body {
 .content {
   width: 1180px;
   margin: 50px auto;
+    .accueil {
+      padding-top: 2vh;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      &_santa {
+        width: 250px;
+      }
+      &_start {
+        text-align: center;
+        margin-top: 20px;
+        &_link {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: 'Open Sans', sans-serif;
+          border: 15px solid #ffffff;
+          text-transform: uppercase;
+          font-weight: bold;
+          padding: 10px 125px;
+          font-size: 4em;
+          transition: all ease 0.3s ;
+
+
+          &:hover {
+            color: #7DBAAB ;
+            background: #ffffff;
+            transition: all ease 0.3s ;
+          }
+        }
+      }
+      &_rule {
+        text-align: center;
+        margin-top: 1.5em;
+        color: #fff;
+        font-size: 2em;
+      }
+      &_rule-text {
+        text-align: center;
+        color: #fff;
+        font-size: 1.2em;
+        padding: 0 10%;
+      }
+    }
 }

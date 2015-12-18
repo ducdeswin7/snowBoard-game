@@ -8,7 +8,6 @@ $(function() {
         $('.luttins-2')
             .animate({marginRight:270},2000)
             .animate({marginRight:20},2000, loop);
-
     }
 
     loop();
